@@ -8,11 +8,20 @@ public class Controller {
     private BookstoreManager model;
     private View view;
 
-    public Controller() {
+    private Controller() {
         this.model = new BookstoreManager();
         this.view = new View();
 
         control();
+    }
+
+    private static Controller instance;
+
+    public static Controller getInstance(){
+        if(instance == null){
+            instance = new Controller();
+        }
+        return instance;
     }
 
     public void control() {
