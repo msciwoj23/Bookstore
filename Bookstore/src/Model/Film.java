@@ -6,9 +6,14 @@ public class Film extends Item {
 
     private int durationTime;
 
-    public Film(String title, int amount, int price, int durationTime, LinkedList<Item> relatedItems) {
-        super(title, amount, price, relatedItems);
+    public Film(String title, int amount, int price, int durationTime) {
+        super(title, amount, price);
 
         this.durationTime = durationTime;
+    }
+
+    @Override
+    public int getSpecialProperties() {
+        return durationTime;
     }
 }

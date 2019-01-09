@@ -1,18 +1,30 @@
 package Model;
 
-import java.util.LinkedList;
 
 public abstract class Item {
 
     private String title;
     private int amount;
     private int price;
-    private LinkedList<Item> relatedItems;
 
-    public Item(String title, int amount, int price, LinkedList<Item> relatedItems) {
+
+    public Item(String title, int amount, int price) {
         this.title = title;
         this.amount = amount;
         this.price = price;
-        this.relatedItems.addAll(relatedItems);
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public abstract int getSpecialProperties();
 }
