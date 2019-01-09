@@ -1,6 +1,5 @@
 package Model;
 
-import java.util.LinkedList;
 
 public abstract class Item {
 
@@ -22,9 +21,7 @@ public abstract class Item {
         this.title = title;
         this.amount = amount;
         this.price = price;
-        this.relatedItems.addAll(relatedItems);
     }
-
 
     public String getTitle() {
         return title;
@@ -34,8 +31,5 @@ public abstract class Item {
         return amount;
     }
 
-    public void setAmount(int amount) {
-        this.amount = amount;
-    }
-
+    public abstract int getSpecialProperties();
 }

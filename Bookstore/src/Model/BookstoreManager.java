@@ -4,19 +4,19 @@ import java.util.LinkedList;
 
 public class BookstoreManager {
 
-    LinkedList<Item> listOfItems;
-
-    LinkedList<Item> itemsInCart;
+    public LinkedList<Item> listOfItems = new LinkedList<>();
+    public LinkedList<Item> itemsInCart = new LinkedList<>();
 
     public static void updateUserStatus() {
 
     }
 
-    public void addItemToBookstore() {
-
+    public void addItemToBookstore(Item item) {
+        listOfItems.add(item);
     }
 
-    public void addItemToCart() {
+    public void addItemToCart(Item item) {
+        itemsInCart.add(item);
 
     }
 
@@ -32,12 +32,8 @@ public class BookstoreManager {
         listOfItems.get(index).setPrice(userInput.validatedNextInt("Give me price"));
     }
 
-    public void addItem() {
-
-    }
-
-    public void removeItem() {
-
+    public void removeItem(Item item) {
+        listOfItems.remove(item);
     }
 
     private void decrementItemsAmountByOne(Item item){
