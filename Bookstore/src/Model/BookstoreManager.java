@@ -21,11 +21,15 @@ public class BookstoreManager {
     }
 
     public void updateStock() {
-
+        for(Item item : itemsInCart){
+            int index = listOfItems.indexOf(item.getTitle());
+            decrementItemsAmountByOne(listOfItems.get(index));
+        }
     }
 
-    public void editItem() {
-
+    public void editItem(String name, InputHandler userInput) {
+        int index = listOfItems.indexOf(name);
+        listOfItems.get(index).setPrice(userInput.validatedNextInt("Give me price"));
     }
 
     public void addItem() {
@@ -34,5 +38,9 @@ public class BookstoreManager {
 
     public void removeItem() {
 
+    }
+
+    private void decrementItemsAmountByOne(Item item){
+        item.setAmount(item.getAmount() - 1);
     }
 }

@@ -6,13 +6,36 @@ public abstract class Item {
 
     private String title;
     private int amount;
-    private int price;
+    private float price;
     private LinkedList<Item> relatedItems;
 
-    public Item(String title, int amount, int price, LinkedList<Item> relatedItems) {
+    public float getPrice() {
+        return price;
+    }
+
+    public void setPrice(float price) {
+
+        this.price = price;
+    }
+
+    public Item(String title, int amount, float price, LinkedList<Item> relatedItems) {
         this.title = title;
         this.amount = amount;
         this.price = price;
         this.relatedItems.addAll(relatedItems);
     }
+
+
+    public String getTitle() {
+        return title;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
 }
