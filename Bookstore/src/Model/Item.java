@@ -5,10 +5,19 @@ public abstract class Item {
 
     private String title;
     private int amount;
-    private int price;
+    private float price;
+    private LinkedList<Item> relatedItems;
 
+    public float getPrice() {
+        return price;
+    }
 
-    public Item(String title, int amount, int price) {
+    public void setPrice(float price) {
+
+        this.price = price;
+    }
+
+    public Item(String title, int amount, float price, LinkedList<Item> relatedItems) {
         this.title = title;
         this.amount = amount;
         this.price = price;
@@ -20,10 +29,6 @@ public abstract class Item {
 
     public int getAmount() {
         return amount;
-    }
-
-    public int getPrice() {
-        return price;
     }
 
     public abstract int getSpecialProperties();
