@@ -41,7 +41,6 @@ public class BookstoreManager {
 
     public Item createItemFromInput(String input){
         String[] splitItem = input.split(";");
-        System.out.println(Arrays.toString(splitItem));
         int price = Integer.parseInt(splitItem[2]);
         int amount = Integer.parseInt(splitItem[3]);
         int specialAtribiute = Integer.parseInt(splitItem[4]);
@@ -95,6 +94,10 @@ public class BookstoreManager {
             }
         }
         return list;
+    }
+
+    public Item getLastItem() {
+        return listOfItems.getLast();
     }
 }
 

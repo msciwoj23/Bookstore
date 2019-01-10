@@ -16,12 +16,11 @@ public class View {
         System.out.println("        Type:");
         String s = scanner.nextLine();
         // scanner.close();
-        System.out.println(s);
         return s;
     }
 
     public void printItemAdditionMessage() {
-        System.out.println();
+        printVisualSeparator();
         System.out.println("        If you wish to add an item, read and pay attention:");
         System.out.println();
         System.out.println("        You have to describe item's:");
@@ -41,7 +40,7 @@ public class View {
         System.out.println("        Book;Book of Unknown Properties;;;230");
     }
 
-    public void printVisualSeparator() {
+    private void printVisualSeparator() {
         System.out.println();
         System.out.println("-------------------------------------------");
         System.out.println();
@@ -61,11 +60,10 @@ public class View {
         System.out.println("      or any key to continue");
     }
 
-    public void printWrongPasswordMessage() {
+    public void printNoRightsMessage() {
         printVisualSeparator();
-        System.out.println("      wrong password, redirecting to Main Menu");
-        System.out.println();
-        System.out.println("      press Enter to continue");
+        System.out.println("      you have no rights to do that");
+
     }
 
     public void printMenu() {
@@ -126,5 +124,26 @@ public class View {
     public void printFarewell() {
         printVisualSeparator();
         System.out.println("      Thank you for using Bookstore™ by BoxCode");
+    }
+
+    public void printOneItem(Item element) {
+        final String DASHES = new String(new char[175]).replace("\0", "-");
+        System.out.println(DASHES);
+        System.out.print(String.format("|%-30s|","Type"));
+        System.out.print(String.format("%-30s|","Title"));
+        System.out.print(String.format("%-30s|", "Price"));
+        System.out.print(String.format("%-30s|", "Amount"));
+        System.out.println(String.format("%-50s|", "Number of Pages/ Duration Time/ Restriction Ages"));
+        System.out.println(DASHES);
+        System.out.print(String.format("|%-30s|",element.getClass().getSimpleName()));
+        System.out.print(String.format("%-30s|", element.getTitle()));
+        System.out.print(String.format("%-30s|", element.getPrice()));
+        System.out.print(String.format("%-30s|", element.getAmount()));
+        System.out.println(String.format("%-50s|", element.getSpecialProperties()));
+        System.out.println(DASHES);
+    }
+
+    public void printItemAddedMessage() {
+
     }
 }

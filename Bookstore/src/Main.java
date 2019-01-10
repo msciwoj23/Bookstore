@@ -1,5 +1,4 @@
 import Controller.Controller;
-import Model.User;
 
 public class Main {
 

@@ -25,14 +25,17 @@ public class Controller {
         }
     }
 
-    public void control() {
+    private void control() {
 
         view.printGreeting();
         view.getStringInput();
 
         controlAdminLogin();
 
-        loop: while (true) {
+
+        boolean shouldRun = true;
+
+        while (shouldRun) {
 
             if (model.isUserTheAdmin()) {
                 view.printAdminMenuPrefix();
@@ -48,7 +51,7 @@ public class Controller {
 
             switch (input) {
 
-                case "books":
+                case "books":       // TODO comparing strings Bad, Enums good
                     LinkedList<Item> listOfBooks = model.getItemsOfOneType(Book.class);
                     view.printItems(listOfBooks);
                     break;
@@ -57,7 +60,7 @@ public class Controller {
                     LinkedList<Item> listOfFilms = model.getItemsOfOneType(Film.class);
                     view.printItems(listOfFilms);
                     break;
-
+                                            // TODO this 4 cases are simmilar, should be agregated
                 case "games":
                     LinkedList<Item> listOfGames = model.getItemsOfOneType(Game.class);
                     view.printItems(listOfGames);
@@ -78,11 +81,19 @@ public class Controller {
                     break;
 
                 case "item":
-                    view.printItemAdditionMessage();
-                    String itemDescription = view.getStringInput();
-                    Item itemToAdd = model.createItemFromInput(itemDescription);
-                    model.addItemToBookstore(itemToAdd);
-                    break;
+                    if (model.isUserTheAdmin()) {
+                        view.printItemAdditionMessage();
+                        String itemDescription = view.getStringInput();
+                        Item itemToAdd = model.createItemFromInput(itemDescription);
+                        model.addItemToBookstore(itemToAdd);
+                        Item lastItem = model.getLastItem();
+                        view.printOneItem(lastItem);
+                        break;
+                    } else {
+                        view.printNoRightsMessage();
+                        break;
+                    }
+
 
                 case "admin":
                     if (model.isUserTheAdmin()) {
@@ -95,7 +106,8 @@ public class Controller {
 
                 case "exit":
                     view.printFarewell();
-                    break loop;
+                    shouldRun = false;
+                    break;
             }
         }
     }

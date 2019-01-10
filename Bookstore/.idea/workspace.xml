@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da585484-2e4a-42ea-9dc9-a262217418b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bookstore/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookstore/Controller/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Bookstore/Model/BookstoreManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookstore/Model/BookstoreManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Bookstore/View/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bookstore/View/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/BookstoreManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/BookstoreManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/InputHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Special.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/View.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,12 +54,25 @@
     <session id="-1466638697">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="114" />
+          <entry key="java" value="539" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="114" />
+          <entry key="JAVA" value="539" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="JAVA/" value="3" />
+          <entry key="MODULES/mdl-Bookstore" value="1" />
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+          <entry key="UML" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -64,41 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="83" column="54" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/InputHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/View/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="232">
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,40 +92,141 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Model/BookstoreManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-                <element signature="e#2220#2221#0" expanded="true" />
-                <element signature="e#2254#2255#0" expanded="true" />
-                <element signature="e#2302#2303#0" expanded="true" />
-                <element signature="e#2336#2337#0" expanded="true" />
-                <element signature="e#2375#2376#0" expanded="true" />
-                <element signature="e#2412#2413#0" expanded="true" />
-                <element signature="e#2469#2470#0" expanded="true" />
-                <element signature="e#2522#2523#0" expanded="true" />
-                <element signature="e#2560#2561#0" expanded="true" />
-                <element signature="e#2608#2609#0" expanded="true" />
-              </folding>
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="730.5734375" y="362.5">View.View</node>
+                <node x="546.8234375" y="232.0">Model.Film</node>
+                <node x="81.82343749999995" y="362.0">Model.BookstoreManager</node>
+                <node x="468.84375" y="801.0">Controller.Controller</node>
+                <node x="288.82343749999995" y="232.0">Model.Book</node>
+                <node x="0.0" y="232.0">Model.Game</node>
+                <node x="322.5" y="0.0">Model.Item</node>
+                <node x="493.84375" y="1004.0">Main</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="View.View" target="Model.Item">
+                  <point x="0.0" y="-184.0" />
+                  <point x="881.5734375" y="182.0" />
+                  <point x="510.3499999999999" y="182.0" />
+                  <point x="77.34999999999991" y="76.0" />
+                </edge>
+                <edge source="Controller.Controller" target="Model.Game">
+                  <point x="-108.5" y="-76.5" />
+                  <point x="484.34375" y="781.0" />
+                  <point x="60.25" y="781.0" />
+                  <point x="-60.25" y="40.0" />
+                </edge>
+                <edge source="Controller.Controller" target="Model.Item">
+                  <point x="108.5" y="-76.5" />
+                  <point x="701.34375" y="781.0" />
+                  <point x="1043.0734375" y="781.0" />
+                  <point x="1043.0734375" y="172.0" />
+                  <point x="532.4499999999999" y="172.0" />
+                  <point x="99.44999999999993" y="76.0" />
+                </edge>
+                <edge source="Model.Book" target="Model.Item">
+                  <point x="59.5" y="-40.0" />
+                  <point x="467.32343749999995" y="212.0" />
+                  <point x="444.04999999999995" y="212.0" />
+                  <point x="11.049999999999955" y="76.0" />
+                </edge>
+                <edge source="Model.BookstoreManager" target="Model.Film">
+                  <point x="150.0" y="-184.5" />
+                  <point x="419.32343749999995" y="337.0" />
+                  <point x="604.5734375" y="337.0" />
+                  <point x="-57.75" y="40.0" />
+                </edge>
+                <edge source="Controller.Controller" target="Model.Book">
+                  <point x="-15.5" y="-76.5" />
+                  <point x="577.34375" y="751.0" />
+                  <point x="467.32343749999995" y="751.0" />
+                  <point x="59.5" y="40.0" />
+                </edge>
+                <edge source="Model.Film" target="Model.Item">
+                  <point x="57.75" y="-40.0" />
+                  <point x="720.0734375" y="192.0" />
+                  <point x="488.25" y="192.0" />
+                  <point x="55.25" y="76.0" />
+                </edge>
+                <edge source="Model.Game" target="Model.Item">
+                  <point x="-60.25" y="-40.0" />
+                  <point x="60.25" y="172.0" />
+                  <point x="333.55000000000007" y="172.0" />
+                  <point x="-99.44999999999999" y="76.0" />
+                </edge>
+                <edge source="Controller.Controller" target="Model.Film">
+                  <point x="15.5" y="-76.5" />
+                  <point x="608.34375" y="751.0" />
+                  <point x="720.0734375" y="751.0" />
+                  <point x="57.75" y="40.0" />
+                </edge>
+                <edge source="Model.BookstoreManager" target="Model.Book">
+                  <point x="75.0" y="-184.5" />
+                  <point x="344.32343749999995" y="337.0" />
+                  <point x="348.32343749999995" y="337.0" />
+                  <point x="-59.5" y="40.0" />
+                </edge>
+                <edge source="Controller.Controller" target="View.View">
+                  <point x="77.5" y="-76.5" />
+                  <point x="670.34375" y="771.0" />
+                  <point x="957.0734375" y="771.0" />
+                  <point x="75.5" y="184.0" />
+                </edge>
+                <edge source="Model.BookstoreManager" target="Model.Game">
+                  <point x="-150.0" y="-184.5" />
+                  <point x="119.32343749999995" y="337.0" />
+                  <point x="180.75" y="337.0" />
+                  <point x="60.25" y="40.0" />
+                </edge>
+                <edge source="Model.BookstoreManager" target="Model.Item">
+                  <point x="0.0" y="-184.5" />
+                  <point x="269.32343749999995" y="337.0" />
+                  <point x="262.5" y="337.0" />
+                  <point x="262.5" y="202.0" />
+                  <point x="399.85" y="202.0" />
+                  <point x="-33.150000000000034" y="76.0" />
+                </edge>
+                <edge source="Controller.Controller" target="Model.BookstoreManager">
+                  <point x="-46.5" y="-76.5" />
+                  <point x="546.34375" y="761.0" />
+                  <point x="363.07343749999995" y="761.0" />
+                  <point x="93.75" y="184.5" />
+                </edge>
+                <edge source="Main" target="Controller.Controller">
+                  <point x="0.0" y="-27.5" />
+                  <point x="0.0" y="76.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="519.0" y="347.1428571428571" />
+              <SelectedNodes>
+                <node>Main</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/User.java">
+        <entry file="file://$PROJECT_DIR$/src/View/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="37" />
+            <state relative-caret-position="276">
+              <caret line="146" selection-start-line="146" selection-end-line="146" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,8 +243,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="240">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -167,7 +253,19 @@
         <entry file="file://$PROJECT_DIR$/src/Model/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+              <caret line="8" column="71" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,8 +273,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="46" column="7" selection-start-line="44" selection-start-column="6" selection-end-line="46" selection-end-column="7" />
+            <state relative-caret-position="525">
+              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding>
                 <element signature="e#716#717#0" expanded="true" />
                 <element signature="e#750#751#0" expanded="true" />
@@ -217,9 +315,9 @@
         <option value="$PROJECT_DIR$/src/Model/Film.java" />
         <option value="$PROJECT_DIR$/src/Model/Book.java" />
         <option value="$PROJECT_DIR$/src/Model/Game.java" />
-        <option value="$PROJECT_DIR$/src/Controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/View/View.java" />
         <option value="$PROJECT_DIR$/src/Model/BookstoreManager.java" />
+        <option value="$PROJECT_DIR$/src/View/View.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Controller.java" />
       </list>
     </option>
   </component>
@@ -228,6 +326,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -283,7 +387,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546950171539" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547130416046" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -345,13 +449,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23765000" />
+    <option name="totallyTimeSpent" value="26819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-4" width="1303" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19888623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19172633" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -360,8 +464,8 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23447205" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.05279503" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,8 +483,39 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3293556" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19172633" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.05279503" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3293556" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -408,81 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="46" column="7" selection-start-line="44" selection-start-column="6" selection-end-line="46" selection-end-column="7" />
-          <folding>
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="83" column="54" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/BookstoreManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="362">
+          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
@@ -503,7 +567,231 @@
             <element signature="e#2522#2523#0" expanded="true" />
             <element signature="e#2560#2561#0" expanded="true" />
             <element signature="e#2608#2609#0" expanded="true" />
+            <element signature="e#2835#2836#0" expanded="true" />
+            <element signature="e#2868#2869#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-Bookstore">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-Bookstore</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">mdl-Bookstore</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-180.0" y="65.5" />
+          <SelectedNodes>
+            <node>mdl-Bookstore</node>
+          </SelectedNodes>
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="71" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/InputHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="730.5734375" y="362.5">View.View</node>
+            <node x="546.8234375" y="232.0">Model.Film</node>
+            <node x="81.82343749999995" y="362.0">Model.BookstoreManager</node>
+            <node x="468.84375" y="801.0">Controller.Controller</node>
+            <node x="288.82343749999995" y="232.0">Model.Book</node>
+            <node x="0.0" y="232.0">Model.Game</node>
+            <node x="322.5" y="0.0">Model.Item</node>
+            <node x="493.84375" y="1004.0">Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="View.View" target="Model.Item">
+              <point x="0.0" y="-184.0" />
+              <point x="881.5734375" y="182.0" />
+              <point x="510.3499999999999" y="182.0" />
+              <point x="77.34999999999991" y="76.0" />
+            </edge>
+            <edge source="Controller.Controller" target="Model.Game">
+              <point x="-108.5" y="-76.5" />
+              <point x="484.34375" y="781.0" />
+              <point x="60.25" y="781.0" />
+              <point x="-60.25" y="40.0" />
+            </edge>
+            <edge source="Controller.Controller" target="Model.Item">
+              <point x="108.5" y="-76.5" />
+              <point x="701.34375" y="781.0" />
+              <point x="1043.0734375" y="781.0" />
+              <point x="1043.0734375" y="172.0" />
+              <point x="532.4499999999999" y="172.0" />
+              <point x="99.44999999999993" y="76.0" />
+            </edge>
+            <edge source="Model.Book" target="Model.Item">
+              <point x="59.5" y="-40.0" />
+              <point x="467.32343749999995" y="212.0" />
+              <point x="444.04999999999995" y="212.0" />
+              <point x="11.049999999999955" y="76.0" />
+            </edge>
+            <edge source="Model.BookstoreManager" target="Model.Film">
+              <point x="150.0" y="-184.5" />
+              <point x="419.32343749999995" y="337.0" />
+              <point x="604.5734375" y="337.0" />
+              <point x="-57.75" y="40.0" />
+            </edge>
+            <edge source="Controller.Controller" target="Model.Book">
+              <point x="-15.5" y="-76.5" />
+              <point x="577.34375" y="751.0" />
+              <point x="467.32343749999995" y="751.0" />
+              <point x="59.5" y="40.0" />
+            </edge>
+            <edge source="Model.Film" target="Model.Item">
+              <point x="57.75" y="-40.0" />
+              <point x="720.0734375" y="192.0" />
+              <point x="488.25" y="192.0" />
+              <point x="55.25" y="76.0" />
+            </edge>
+            <edge source="Model.Game" target="Model.Item">
+              <point x="-60.25" y="-40.0" />
+              <point x="60.25" y="172.0" />
+              <point x="333.55000000000007" y="172.0" />
+              <point x="-99.44999999999999" y="76.0" />
+            </edge>
+            <edge source="Controller.Controller" target="Model.Film">
+              <point x="15.5" y="-76.5" />
+              <point x="608.34375" y="751.0" />
+              <point x="720.0734375" y="751.0" />
+              <point x="57.75" y="40.0" />
+            </edge>
+            <edge source="Model.BookstoreManager" target="Model.Book">
+              <point x="75.0" y="-184.5" />
+              <point x="344.32343749999995" y="337.0" />
+              <point x="348.32343749999995" y="337.0" />
+              <point x="-59.5" y="40.0" />
+            </edge>
+            <edge source="Controller.Controller" target="View.View">
+              <point x="77.5" y="-76.5" />
+              <point x="670.34375" y="771.0" />
+              <point x="957.0734375" y="771.0" />
+              <point x="75.5" y="184.0" />
+            </edge>
+            <edge source="Model.BookstoreManager" target="Model.Game">
+              <point x="-150.0" y="-184.5" />
+              <point x="119.32343749999995" y="337.0" />
+              <point x="180.75" y="337.0" />
+              <point x="60.25" y="40.0" />
+            </edge>
+            <edge source="Model.BookstoreManager" target="Model.Item">
+              <point x="0.0" y="-184.5" />
+              <point x="269.32343749999995" y="337.0" />
+              <point x="262.5" y="337.0" />
+              <point x="262.5" y="202.0" />
+              <point x="399.85" y="202.0" />
+              <point x="-33.150000000000034" y="76.0" />
+            </edge>
+            <edge source="Controller.Controller" target="Model.BookstoreManager">
+              <point x="-46.5" y="-76.5" />
+              <point x="546.34375" y="761.0" />
+              <point x="363.07343749999995" y="761.0" />
+              <point x="93.75" y="184.5" />
+            </edge>
+            <edge source="Main" target="Controller.Controller">
+              <point x="0.0" y="-27.5" />
+              <point x="0.0" y="76.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="519.0" y="347.1428571428571" />
+          <SelectedNodes>
+            <node>Main</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
