@@ -7,8 +7,8 @@ public class Book extends Item{
     private int numberOfPages;
 
 
-    public Book(String title, int amount, int price, LinkedList<String> relatedItems, int numberOfPages) {
-        super(title, amount, price, relatedItems);
+    public Book(String title, int amount, int price, int numberOfPages) {
+        super(title, amount, price);
         this.numberOfPages = numberOfPages;
     }
 

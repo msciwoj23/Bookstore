@@ -25,16 +25,15 @@ public class View {
         System.out.println();
         System.out.println("        You have to describe item's:");
         System.out.println();
-        System.out.println("        type;title;number in stock;price;related items;SPECIAL property");
+        System.out.println("        type;title;number in stock;price;SPECIAL property");
         System.out.println();
         System.out.println("        separated by semicolons like above.");
         System.out.println("        SPECIAL property means: number of pages  - if it's a book");
         System.out.println("                                minutes it lasts - if it's a film");
         System.out.println("                                age restriction  - if it's a game");
         System.out.println();
-        System.out.println("        use semicolon (;) 5 times to separate 7 properties. Example:");
-        System.out.println("        Book;The Hobbit;20;40;Lord of the Rings: Fellowship of the Ring, Lord of the Rings: " +
-                "Lord of the Rings: The Two Towers, Lord of the Rings: The Return of the King;230");
+        System.out.println("        use semicolon (;) 4 times to separate 5 properties. Example:");
+        System.out.println("        Book;The Hobbit;20;40;230");
 
         System.out.println("        leave no space between semicolons to skip property, example:");
         System.out.println();
@@ -98,7 +97,7 @@ public class View {
         printVisualSeparator();
         System.out.println("       this is MAIN MENU");
     }
-    
+
     public void printItems(LinkedList<Item> items) {
         final String DASHES = new String(new char[175]).replace("\0", "-");
         System.out.println(DASHES);

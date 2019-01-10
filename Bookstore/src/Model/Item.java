@@ -8,7 +8,7 @@ public abstract class Item {
     private String title;
     private int amount;
     private float price;
-    private LinkedList<String> relatedItems;
+//    private LinkedList<String> relatedItems;
 
     public float getPrice() {
         return price;
@@ -19,11 +19,11 @@ public abstract class Item {
         this.price = price;
     }
 
-    public Item(String title, int amount, float price, LinkedList<String> relatedItems) {
+    public Item(String title, int amount, float price) {
         this.title = title;
         this.amount = amount;
         this.price = price;
-        this.relatedItems = relatedItems;
+//        this.relatedItems = relatedItems;
     }
 
     public String getTitle() {
@@ -42,9 +42,9 @@ public abstract class Item {
         this.amount = amount;
     }
 
-    public void setRelatedItems(LinkedList<String> relatedItems) {
-        this.relatedItems = relatedItems;
-    }
+//    public void setRelatedItems(LinkedList<String> relatedItems) {
+//        this.relatedItems = relatedItems;
+//    }
 
     public abstract int getSpecialProperties();
 }

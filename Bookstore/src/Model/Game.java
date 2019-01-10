@@ -6,8 +6,8 @@ public class Game extends Item{
 
     private int ageRestriction;
 
-    public Game(String title, int amount, int price, LinkedList<String> relatedItems, int ageRestriction) {
-        super(title, amount, price, relatedItems);
+    public Game(String title, int amount, int price, int ageRestriction) {
+        super(title, amount, price);
 
         this.ageRestriction = ageRestriction;
     }

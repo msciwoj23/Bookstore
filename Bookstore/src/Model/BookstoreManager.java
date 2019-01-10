@@ -5,12 +5,12 @@ import java.util.LinkedList;
 
 public class BookstoreManager {
 
+    private boolean isUserTheAdmin = false;
+    private String password = "mama";
+
     public LinkedList<Item> listOfItems = new LinkedList<>();
     private LinkedList<Item> itemsInCart = new LinkedList<>();
 
-    public static void updateUserStatus() {
-
-    }
     public void addItemToBookstore(Item item) {
         listOfItems.add(item);
     }
@@ -26,10 +26,10 @@ public class BookstoreManager {
         }
     }
 
-    public void editItem(String name, InputHandler userInput) {
-        int index = listOfItems.indexOf(name);
-        listOfItems.get(index).setPrice(userInput.validatedNextInt("Give me price"));
-    }
+//    public void editItem(String name, InputHandler userInput) {
+//        int index = listOfItems.indexOf(name);
+//        listOfItems.get(index).setPrice(userInput.validatedNextInt("Give me price"));
+//    }
 
     public void removeItem(Item item) {
         listOfItems.remove(item);
@@ -41,6 +41,7 @@ public class BookstoreManager {
 
     public Item createItemFromInput(String input){
         String[] splitItem = input.split(";");
+        System.out.println(Arrays.toString(splitItem));
         int price = Integer.parseInt(splitItem[2]);
         int amount = Integer.parseInt(splitItem[3]);
         int specialAtribiute = Integer.parseInt(splitItem[4]);
@@ -73,6 +74,27 @@ public class BookstoreManager {
         return itemsInCart;
     }
 
+    public boolean isUserTheAdmin() {
+        return isUserTheAdmin;
+    }
 
+    public boolean isPasswordOk(String inputPassword) {
+        return password.equals(inputPassword);
+    }
+
+    public void toggleUserStatus() {
+        isUserTheAdmin = !isUserTheAdmin;
+    }
+
+    public LinkedList<Item> getItemsOfOneType(Class type) {
+        LinkedList<Item> list = new LinkedList<>();
+        for (Item item :
+                listOfItems) {
+            if (item.getClass() == type) {
+                list.add(item);
+            }
+        }
+        return list;
+    }
 }
 
