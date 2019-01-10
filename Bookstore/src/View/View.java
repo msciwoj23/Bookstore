@@ -1,9 +1,9 @@
 package View;
 
 
-
 import Model.Book;
 import Model.Item;
+import jdk.internal.joptsimple.internal.Strings;
 
 import java.util.Scanner;
 import java.util.LinkedList;
@@ -120,12 +120,28 @@ public class View {
         System.out.println("       this is MAIN MENU");
     }
 
-    public void printCurrentCart(LinkedList<Item> cart) {
-        printVisualSeparator();
-    }
-
     public void printItems(LinkedList<Item> items) {
-        printVisualSeparator();
+        final String DASHES = new String(new char[175]).replace("\0", "-");
+        System.out.println(DASHES);
+        System.out.print(String.format("|%-30s|","Type"));
+        System.out.print(String.format("%-30s|","Title"));
+        System.out.print(String.format("%-30s|", "Price"));
+        System.out.print(String.format("%-30s|", "Amount"));
+        System.out.println(String.format("%-50s|", "Number of Pages/ Duration Time/ Restriction Ages"));
+        System.out.println(DASHES);
+        if (!items.isEmpty()) {
+            for (Item element : items) {
+                System.out.print(String.format("|%-30s|",element.getClass().getSimpleName()));
+                System.out.print(String.format("%-30s|", element.getTitle()));
+                System.out.print(String.format("%-30s|", element.getPrice()));
+                System.out.print(String.format("%-30s|", element.getAmount()));
+                System.out.println(String.format("%-50s|", element.getSpecialProperties()));
+                System.out.println(DASHES);
+            }
+        } else {
+            System.out.println("Out of stock");
+        }
+
     }
 
     public void printFarewell() {
