@@ -14,8 +14,9 @@ public class View {
         System.out.println();
         Scanner scanner = new Scanner(System.in);  // Reading from System.in
         System.out.println("        Type:");
-        String s = scanner.next();
+        String s = scanner.nextLine();
         // scanner.close();
+        System.out.println(s);
         return s;
     }
 
@@ -37,7 +38,7 @@ public class View {
 
         System.out.println("        leave no space between semicolons to skip property, example:");
         System.out.println();
-        System.out.println("        Book;Book of Unknown Properties;;;;230");
+        System.out.println("        Book;Book of Unknown Properties;;;230");
     }
 
     public void printVisualSeparator() {

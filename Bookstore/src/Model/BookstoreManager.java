@@ -8,7 +8,7 @@ public class BookstoreManager {
     private boolean isUserTheAdmin = false;
     private String password = "mama";
 
-    public LinkedList<Item> listOfItems = new LinkedList<>();
+    private LinkedList<Item> listOfItems = new LinkedList<>();
     private LinkedList<Item> itemsInCart = new LinkedList<>();
 
     public void addItemToBookstore(Item item) {
