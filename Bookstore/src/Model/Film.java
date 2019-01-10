@@ -6,8 +6,8 @@ public class Film extends Item {
 
     private int durationTime;
 
-    public Film(String title, int amount, int price, int durationTime) {
-        super(title, amount, price);
+    public Film(String title, int amount, int price, LinkedList<String> relatedItems, int durationTime) {
+        super(title, amount, price, relatedItems);
 
         this.durationTime = durationTime;
     }

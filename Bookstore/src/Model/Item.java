@@ -1,12 +1,14 @@
 package Model;
 
 
+import java.util.LinkedList;
+
 public abstract class Item {
 
     private String title;
     private int amount;
     private float price;
-    private LinkedList<Item> relatedItems;
+    private LinkedList<String> relatedItems;
 
     public float getPrice() {
         return price;
@@ -17,10 +19,11 @@ public abstract class Item {
         this.price = price;
     }
 
-    public Item(String title, int amount, float price, LinkedList<Item> relatedItems) {
+    public Item(String title, int amount, float price, LinkedList<String> relatedItems) {
         this.title = title;
         this.amount = amount;
         this.price = price;
+        this.relatedItems = relatedItems;
     }
 
     public String getTitle() {
@@ -29,6 +32,18 @@ public abstract class Item {
 
     public int getAmount() {
         return amount;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
+    public void setRelatedItems(LinkedList<String> relatedItems) {
+        this.relatedItems = relatedItems;
     }
 
     public abstract int getSpecialProperties();
